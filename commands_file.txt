@@ -1,0 +1,3 @@
+# this file used with my_netmiko*.py scripts
+do show ip protocols
+do show ip interface brief
