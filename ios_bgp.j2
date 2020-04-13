@@ -1,0 +1,7 @@
+router bgp {{ local_as }}
+  {%- for route in advertised_routes %}
+  network {{ route }}
+  {%- endfor %}
+  neighbor {{ peer1_ip }} remote-as {{ peer1_as }}
+  update-source loopback0
+  ebgp-multihop 1
