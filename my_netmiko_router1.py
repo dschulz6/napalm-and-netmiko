@@ -14,7 +14,7 @@ with open('commands_file.txt') as f:
 ios_devices = {
 	'device_type': 'cisco_ios',
 	'ip': '192.168.0.200',
-	'username': 'Qwest',
+	'username': 'Engineer',
 	'password': getpass()
 }
 
